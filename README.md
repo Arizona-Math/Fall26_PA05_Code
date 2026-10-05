@@ -430,11 +430,11 @@ Only interior temperatures belong to the unknown vector. If $q$ is a
 boundary neighbor, its temperature is the known number $g_q$. Expand
 the balance at node $p$ and move these known terms to the right:
 
-$$
+```math
 \left(\sum_{q\sim p}c_{pq}\right)u_p
 -\sum_{\substack{q\sim p\\q\text{ interior}}}c_{pq}u_q
 =f_p+\sum_{\substack{q\sim p\\q\text{ boundary}}}c_{pq}g_q.
-$$
+```
 
 This is one row of $Au=b$. Its diagonal is the sum of **all four** scaled
 conductances; its off-diagonal entries are negative scaled conductances
