@@ -288,8 +288,8 @@ At steady state, the heat leaving any small region $V$ must equal the heat
 generated inside it. With outward unit normal $\mathbf n$, this gives
 
 $$
-\int_{\partial V}\mathbf J\cdot\mathbf n\,ds
-=\int_V f\,dA.
+\int_{\partial V}\mathbf J\cdot\mathbf n\thinspace ds
+=\int_V f\thinspace dA.
 $$
 
 The divergence theorem therefore yields $\nabla\cdot\mathbf J=f$, or
